@@ -1,12 +1,12 @@
-####Project Description
+#Project Description
 
   The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set.
   
-####Collection of the raw data
+#Collection of the raw data
   The data for the project is downloaded from here:
   https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
   
-####Creating the tidy datafile
+#Creating the tidy datafile
 
   1. The script does the following data transformations to create a tidy datafile:
      1.1 Merges the training and the test sets to create one data set.
@@ -15,9 +15,9 @@
      1.4 Appropriately labels the data set with descriptive variable names. 
      1.5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-####Description of the variables in the tiny_data.txt file
+#Description of the variables in the tiny_data.txt file
 
-###Summary of the data
+##Summary of the data
 
  The data set contains the average of the mean and standard deviation for each measurement grouped by each activity and each subject.
  There are 68 variables in the data set. 
@@ -25,19 +25,19 @@
  
 ##Variables:
   
-#activity (#1) 
+###activity (#1) 
    
    Description    -> activity name  
    Class          -> factor
    Unique values  -> WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
    
   
-#subjectId (#2)
+###subjectId (#2)
     
 	Description   -> ID for the volunteer who participated in the experiment
 	Class         -> Integer
 	Values        -> 1-30
-#feature measurements (#3-68)
+###feature measurements (#3-68)
   tBodyAccMean-X
   tBodyAccMean-Y                       
   tBodyAccMean-Z                       

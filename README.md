@@ -7,6 +7,7 @@
 
 ###Files 
   run_analysis.R -> Script for performing the analysis
+  
   CodeBook.md    -> Code book that describes the variables, the data, and any transformations or work that you performed to clean up the data.  
   
 ###How to do the analysis using the provided script

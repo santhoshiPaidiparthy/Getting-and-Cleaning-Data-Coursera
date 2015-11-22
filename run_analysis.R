@@ -17,7 +17,7 @@
  #UCI HAR Dataset/train/subject_train.txt
  #UCI HAR Dataset/train/X_train.txt
  #UCI HAR Dataset/train/Y_train.txt
- #UCI HAR Dataset/test/subject_test
+ #UCI HAR Dataset/test/subject_test.txt
  #UCI HAR Dataset/test/X_test.txt
  #UCI HAR Dataset/test/Y_test.txt
 

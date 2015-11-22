@@ -23,21 +23,21 @@
  There are 68 variables in the data set. 
  Number of rows in the data set are 180.
  
- ##Variables:
+##Variables:
   
-  #activity (#1) 
+#activity (#1) 
    
    Description    -> activity name  
    Class          -> factor
    Unique values  -> WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
    
   
-  #subjectId (#2)
+#subjectId (#2)
     
 	Description   -> ID for the volunteer who participated in the experiment
 	Class         -> Integer
 	Values        -> 1-30
-  #feature measurements (#3-68)
+#feature measurements (#3-68)
   tBodyAccMean-X
   tBodyAccMean-Y                       
   tBodyAccMean-Z                       
